@@ -1,0 +1,1 @@
+This example demonstrates a common error in F# related to immutability.  The variable 'x' is declared mutable, but the assignment to 'y' happens before the change to 'x'. This results in 'y' retaining its initial value even though 'x' is updated later.  The solution shows how to address this using proper mutable variable handling or by using mutable references.
